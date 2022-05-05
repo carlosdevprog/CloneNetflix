@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone da Netflix</title>
+    <link rel="shortcut icon" href="img/netflixicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css"> <!--Responsividade. Muito importante.-->
+
+<!--Owl CSS-->
+<link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Animes</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main> <!--Um atalho para escrever uma class, nesse caso da div, seria digitar div.nomedaclass e apertar ENTER. Automaticamente se criará <div class="nomedaclass></div>"-->
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Heartstopper</h3>
+                <p class="descricao">Os adolescentes Charlie e Nick descobrem que são mais que apenas amigos e precisam lidar com as dificuldades da vida escolar e amorosa.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i><!--Criado o icone pelo site fontawesome.-->
+                        ASSISTIR AGORA
+                    </button>
+                     <button role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button> <!--Usar role="buttom" deixa informado ao sistema que é um botão.-->
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+             <a href="https://www.youtube.com/watch?v=hTyXVn9t0ig&t=5s" target="_blank"><img class="box-filme" src="img/poster.jpg" alt=""></a>
+         </div> 
+                <div class="item">
+             <a href="https://www.youtube.com/watch?v=1-AcQAqm5AQ" target="_blank"><img class="box-filme" src="img/posterbarraca.jpg" alt=""></a>
+         </div> 
+                <div class="item">
+             <a href="https://www.youtube.com/watch?v=s7ZnrtiqGdw" target="_blank"><img class="box-filme" src="img/posteraordem.jpg" alt=""></a>
+         </div> 
+                <div class="item">
+             <a href="https://www.youtube.com/watch?v=qGnYohmv4_w" target="_blank"><img class="box-filme" src="img/posterasrogra.jpg" alt=""></a>
+         </div> 
+                <div class="item">
+             <a href="https://www.youtube.com/watch?v=RuRq3FTb3kk" target="_blank"><img class="box-filme" src="img/posterwhinderson.jpg" alt=""></a>
+         </div> 
+           
+            
+        </div>      
+</div>   
+<script src="https://kit.fontawesome.com/1ef330c03c.js" crossorigin="anonymous"></script>    
+<script src="js/owl/jquery.min.js"></script>
+<script src="js/owl/owl.carousel.min.js"></script>
+<script src="js/setup.js"></script>
+</body>
+</html>
