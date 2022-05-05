@@ -8,5 +8,7 @@ A proposta do projeto era criar uma replica da página inicial do Netflix com as
 Estrutura HTML
 Estilização com CSS puro e jQuery, design desktop e mobile responsivo
 Funcionalidades do carrossel com jQuery
-
 ## (EM BREVE MAIS ATUALIZAÇÕES)
+<img align="center" alt="layoutflix" height="470" style="border-radius:35px;" src="https://media.discordapp.net/attachments/971165654352793643/971651726736252958/acimacorreto.png?width=1236&height=555">
+<img align="center" alt="layoutflix" height="350" style="border-radius:35px;" src="https://media.discordapp.net/attachments/971165654352793643/971651345671135272/abaixocorreta.png?width=1440&height=364">
+
